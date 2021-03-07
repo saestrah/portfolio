@@ -390,28 +390,28 @@ nav span:last-of-type { padding-bottom:0; }
     overflow:hidden;
     z-index:99;
     padding-left:2%;
-    -webkit-transition:max-height 1.5s ease-in-out;
-    -moz-transition:max-height 1.5s ease-in-out;
-    -o-transition:max-height 1.5s ease-in-out;
     transition:max-height 1.5s ease-in-out;
+	-webkit-transition:max-height 1.5s ease-in-out;
+	-moz-transition:max-height 1.5s ease-in-out;
+	-o-transition:max-height 1.5s ease-in-out;
 }
 
 .updates:hover {
     height:auto;
     max-height:1000px;
-    -webkit-transition:max-height 1.5s ease-in-out;
-    -moz-transition:max-height 1.5s ease-in-out;
-    -o-transition:max-height 1.5s ease-in-out;
     transition:max-height 1.5s ease-in-out;
+	-webkit-transition:max-height 1.5s ease-in-out;
+	-moz-transition:max-height 1.5s ease-in-out;
+	-o-transition:max-height 1.5s ease-in-out;
 }
 
 .updates:hover .updatesicon:hover {
     cursor:pointer;
     color:var(--accent);
-    -webkit-transition:0.2s ease-in-out;
-    -moz-transition:0.2s ease-in-out;
-    -o-transition:0.2s ease-in-out;
     transition:0.2s ease-in-out;
+	-webkit-transition:0.2s ease-in-out;
+	-moz-transition:0.2s ease-in-out;
+	-o-transition:0.2s ease-in-out;
 }
 
 .updatesicon {
@@ -425,9 +425,9 @@ nav span:last-of-type { padding-bottom:0; }
     cursor:pointer;
     color:var(--accent);
     transition:0.2s ease-in-out;
-        -webkit-transition: 0.2s ease-in-out;
-        -moz-transition: 0.2s ease-in-out;
-        -o-transition: 0.2s ease-in-out;
+	-webkit-transition:0.2s ease-in-out;
+	-moz-transition:0.2s ease-in-out;
+	-o-transition:0.2s ease-in-out;
 }
 
 .updatecontent {
