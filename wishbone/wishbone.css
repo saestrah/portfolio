@@ -356,8 +356,8 @@ nav span:last-of-type { padding-bottom:0; }
 }
 
 .top {
-	display:none;
-	position:fixed;
+    display:none;
+    position:fixed;
     bottom:7.4%;
     right:1.6%;
     padding:5px;
@@ -375,7 +375,7 @@ nav span:last-of-type { padding-bottom:0; }
 }
 
 /*  updates  */
-
+ 
 .updates {
     position:fixed;
     display:block;
@@ -405,7 +405,7 @@ nav span:last-of-type { padding-bottom:0; }
         -o-transition:  max-height 1.5s ease-in-out;
 }
 
-.updates:hover {
+.updates:hover .updatesicon:hover {
     cursor:pointer;
     color:var(--accent);
     transition:0.2s ease-in-out;
