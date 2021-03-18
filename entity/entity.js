@@ -1,4 +1,4 @@
-//  entity  //  by saestrah  //  january 2021
+//  entity · by saestrah · january 2021
 
 //  nightmode
 $(document).ready(function(){
