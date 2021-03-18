@@ -13,11 +13,8 @@ $(document).ready(function() {
         $(".mobilenav").show();
         $(".stclose").hide();
     });
-});
 
 //  tabs
-$(document).ready(function(){
-
 $("#tabs li a:not(:#tab1)").addClass("inactive");
 $(".container").hide();
 $(".container:nth-of-type(1)").show();
@@ -31,10 +28,8 @@ $("#tabs li a").click(function(){
         $("#" + t + "C").fadeIn("slow");
     }
 });
-});
 
 //  nightmode
-$(document).ready(function(){
 var nightMode;
     if (localStorage.getItem('nightmode')) {
         nightMode = localStorage.getItem('nightmode');
