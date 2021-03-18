@@ -86,4 +86,3 @@ var legibleMode;
         $('body').removeClass('legible');
         localStorage.setItem('legiblemode', 'notsolegible');
     });
-});
