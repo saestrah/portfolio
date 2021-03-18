@@ -1,4 +1,4 @@
-//  tangerine  //  by saestrah  //  december 2020
+//  tangerine · by saestrah · december 2020
 
 //  tab
 $(document).ready(function () {
