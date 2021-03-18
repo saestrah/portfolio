@@ -1,7 +1,7 @@
 //  tomorrow project page  //  by saestrah  //  march 2021
 
-//  mobile navigation
 $(document).ready(function() {
+    //  mobile navigation
     $(".mobilenav").on("click", function() {
         $("iconlinks").show();
         $(".mobilenav").hide();
@@ -14,23 +14,23 @@ $(document).ready(function() {
         $(".stclose").hide();
     });
 
-//  tabs
-$("#tabs li a:not(:#tab1)").addClass("inactive");
-$(".container").hide();
-$(".container:nth-of-type(1)").show();
+    //  tabs
+    $("#tabs li a:not(:#tab1)").addClass("inactive");
+    $(".container").hide();
+    $(".container:nth-of-type(1)").show();
 
-$("#tabs li a").click(function(){
-    var t = $(this).attr("id");
-    if($(this).hasClass("inactive")){
-        $("#tabs li a").addClass("inactive");
-        $(this).removeClass("inactive");
-        $(".container").hide();
-        $("#" + t + "C").fadeIn("slow");
-    }
-});
+    $("#tabs li a").click(function(){
+        var t = $(this).attr("id");
+        if($(this).hasClass("inactive")){
+            $("#tabs li a").addClass("inactive");
+            $(this).removeClass("inactive");
+            $(".container").hide();
+            $("#" + t + "C").fadeIn("slow");
+        }
+    });
 
-//  nightmode
-var nightMode;
+    //  nightmode
+    var nightMode;
     if (localStorage.getItem('nightmode')) {
         nightMode = localStorage.getItem('nightmode');
     } else {
@@ -58,8 +58,8 @@ var nightMode;
         localStorage.setItem('nightmode', 'day');
     });
 
-//  font widget
-var legibleMode;
+    //  font widget
+    var legibleMode;
     if (localStorage.getItem('legiblemode')) {
         legibleMode = localStorage.getItem('legiblemode');
     } else {
@@ -86,3 +86,4 @@ var legibleMode;
         $('body').removeClass('legible');
         localStorage.setItem('legiblemode', 'notsolegible');
     });
+});
