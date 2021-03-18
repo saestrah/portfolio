@@ -1,4 +1,6 @@
-// enter
+//  sensitivity  //  by saestrah  //  october 2020
+
+//  enter
 $(document).ready(function(){
     $(".enter").click(function(){
     $("html, body").animate({scrollTop: $("section").offset().top}, 800);
@@ -6,7 +8,7 @@ $(document).ready(function(){
     });
 });
 
-// nightmode
+//  nightmode
 $(document).ready(function(){
 var nightMode;
     if (localStorage.getItem('nightmode')) {
@@ -36,7 +38,7 @@ var nightMode;
         localStorage.setItem('nightmode', 'day');
     });
 
-// font widget
+//  font widget
 var legibleMode;
     if (localStorage.getItem('legiblemode')) {
         legibleMode = localStorage.getItem('legiblemode');
@@ -66,7 +68,7 @@ var legibleMode;
     });
 });
 
-// mobile navigation
+//  mobile navigation
 $(function() {
     var linksmenu = function(el, multiple) {
         this.el = el || {};
