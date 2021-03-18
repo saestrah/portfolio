@@ -1,4 +1,4 @@
-//  tomorrow project page  //  by saestrah  //  march 2021
+//  tomorrow project page · by saestrah · march 2021
 
 $(document).ready(function() {
     //  mobile navigation
