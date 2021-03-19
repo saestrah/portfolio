@@ -683,12 +683,12 @@ iframe.tumblr_audio_player { width:calc(var(--postsize) + 90px); }
 .reblog { padding-right:50px; }
 
 .like-b {
-  position:relative;
-  display:inline-block;
-  height:1em;
-  margin-bottom:-3px;
-  line-height:1em;
-  overflow:hidden;
+	position:relative;
+	display:inline-block;
+	height:1em;
+	margin-bottom:-3px;
+	line-height:1em;
+	overflow:hidden;
 }
 
 .like-b .like_button iframe {
@@ -788,7 +788,7 @@ body.night { background:var(--nightbackground); color:var(--nighttext)!important
 
 body.night .notecount, body.night .quote:before, body.night ul.navtags a { color:var(--nighttext)!important; }
 
-body.night .maintitle, body.night .title, body.night .sidetabtitle { color:var(--nighttitle); }
+body.night .maintitle, body.night .title, body.night .sidetabtitle { color:var(--nighttitle)!important; }
 
 body.night header, body.night sidebar, body.night #iconlinks, body.night .cc, body.night .mobilenav, body.night .stclose, body.night .bfontbtn, body.night .sfontbtn, body.night .nightbtn, body.night .daybtn, body.night .followbtn, body.night .top, body.night .credit { background:var(--nightbackground)!important; }
 
