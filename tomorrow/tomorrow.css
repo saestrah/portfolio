@@ -384,6 +384,7 @@ sidebar img {
 
 .sidetabtitle {
     color:var(--accent);
+    font-family:var(--titlefont);
     font-size:calc(var(--bodyfontsize) + 4px);
     margin-bottom:25px;
 }
