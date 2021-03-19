@@ -383,7 +383,7 @@ sidebar img {
 #sidetab0C { display:block; }
 
 .sidetabtitle {
-    color:var(--accent);
+    color:var(--title);
     font-family:var(--titlefont);
     font-size:calc(var(--bodyfontsize) + 4px);
     margin-bottom:25px;
