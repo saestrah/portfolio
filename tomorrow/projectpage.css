@@ -459,6 +459,7 @@ cover img {
 
 .quote {
     position:relative;
+    text-align:justify;
     font-family:var(--bodyfont);
     margin-top:15px;
     margin-left:25px;
