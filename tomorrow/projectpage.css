@@ -155,6 +155,7 @@ hr {
 }
 
 .title {
+    font-family:var(--titlefont);
     color:var(--title);
     font-size:calc(var(--bodyfontsize) + 4px);
     margin-bottom:25px;
@@ -335,6 +336,7 @@ hr {
 
 .tabtitle {
     display:block;
+    font-family:var(--titlefont);
     color:var(--title);
     font-size:calc(var(--bodyfontsize) + 4px);
     padding:25px 0;
