@@ -390,9 +390,8 @@ sidebar img {
 }
 
 .sidetabsub {
-    color:var(--accent);
+	color:var(--accent);
     font-weight:bold;
-    font-size:calc(var(--bodyfontsize) + 2px);
     margin:0 10px 25px 0;
 }
 
@@ -835,7 +834,6 @@ body.legible { font-size:18px; }
 body.legible .tags { font-size:16px; }
 body.legible .query { font-size:var(--bodyfontsize); }
 body.legible .sidetabtitle, body.legible .navtitle { font-size:22px; }
-body.legible .sidetabsub { font-size:20px; }
 
 /*  responsivity  */
 
