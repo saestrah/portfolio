@@ -391,6 +391,7 @@ sidebar img {
 
 .sidetabsub {
     color:var(--accent);
+    font-weight:bold;
     font-size:calc(var(--bodyfontsize) + 2px);
     margin:0 10px 25px 0;
 }
