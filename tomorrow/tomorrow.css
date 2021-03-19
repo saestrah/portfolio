@@ -401,6 +401,24 @@ sidebar img {
 
 .sidetabblock { margin-bottom:50px; }
 
+/*  about tab  */
+
+.tabone { min-height:210px; margin:5px 0 50px; }
+
+.tabone img {
+    display:inline-block;
+    background:transparent;
+    width:200px;
+    height:200px;
+    float:left;
+    margin:0 15px 10px 0;
+}
+
+.byf { padding-bottom:25px; }
+
+.projects p { padding:2.5px 0; }
+.projects p:first-of-type { padding-bottom:0; }
+
 /*  navigation tab  */
 
 ul.accordion {
