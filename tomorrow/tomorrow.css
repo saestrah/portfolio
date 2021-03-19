@@ -815,7 +815,7 @@ body.night a, body.night .asker a, body.night .answerer a:hover, body.night .use
 body.night .navtags a:hover { color:var(--nightlink)!important; }
 body.night .hold .artist { color:var(--nightlink); }
 
-body.night .maintitle:hover, body.night a:hover, body.night #iconlinks:hover, body.night .asker a:hover, body.night .answerer a, body.night .query, body.night .user, body.night .sidetabsub, body.night .sidetabsub a, body.night .sidetabsub:hover, body.night ul.accordion li.active .navtitle, body.night .navtitle:hover, body.night .active { color:var(--nightaccent); }
+body.night .maintitle:hover, body.night a:hover, body.night #iconlinks:hover, body.night .asker a:hover, body.night .answerer a, body.night .query, body.night .user, body.night .sidetabsub, body.night .sidetabsub a, body.night .sidetabsub:hover, body.night ul.accordion li.active .navtitle, body.night .navtitle:hover, body.night .active { color:var(--nightaccent)!important; }
 
 body.night .sidetabsub a:hover { color:var(--nightlink)!important; }
 
