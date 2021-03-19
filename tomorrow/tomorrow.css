@@ -789,9 +789,11 @@ body.night { background:var(--nightbackground); color:var(--nighttext)!important
 
 body.night .notecount, body.night .quote:before, body.night ul.navtags a { color:var(--nighttext)!important; }
 
+body.night .maintitle, body.night .title, body.night .sidetabtitle { color:var(--nighttitle); }
+
 body.night header, body.night sidebar, body.night #iconlinks, body.night .cc, body.night .mobilenav, body.night .stclose, body.night .bfontbtn, body.night .sfontbtn, body.night .nightbtn, body.night .daybtn, body.night .followbtn, body.night .top, body.night .credit { background:var(--nightbackground)!important; }
 
-body.night a, body.night .title, body.night .asker a, body.night .answerer a:hover, body.night .user:hover, body.night .source, body.night .label, body.night .navtitle { color:var(--nightlink); }
+body.night a, body.night .asker a, body.night .answerer a:hover, body.night .user:hover, body.night .source, body.night .label, body.night .navtitle { color:var(--nightlink); }
 
 body.night .navtags a:hover { color:var(--nightlink)!important; }
 body.night .hold .artist { color:var(--nightlink); }
