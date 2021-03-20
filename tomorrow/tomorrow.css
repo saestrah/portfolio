@@ -553,6 +553,28 @@ a.read_more, .label { letter-spacing:1.5px; font-weight:bold; }
 
 /*  quote  */
 
+.npf_quote {
+    text-align:justify;
+    font-family:var(--bodyfont)!important;
+    font-size:var(--bodyfontsize);
+    margin-left:25px;
+    padding-left:15px;
+    position:relative;
+    border-left:1px solid var(--borders);
+}
+
+.npf_quote:before {
+    content:"“";
+    font-family:var(--titlefont);
+    color:var(--text);
+    font-weight:var(--titlefontweight);
+    font-style:normal!important;
+    font-size:calc(var(--bodyfontsize) + var(--bodyfontsize));
+    position:absolute;
+    left:-25px;
+    top:0;
+}
+
 .quote {
     text-align:justify;
     font-family:var(--bodyfont);
