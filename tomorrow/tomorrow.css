@@ -925,6 +925,10 @@ body.legible .sidetabtitle, body.legible .navtitle { font-size:22px; }
     .deactivated:after { opacity:1; }
 }
 
+@media only screen and (max-width:750px) {
+    .pinned { display:none; }
+}
+
 @media only screen and (max-width:450px) {
     header { text-align:left; padding-left:25px; }
     .headertitle { font-size:18px; }
