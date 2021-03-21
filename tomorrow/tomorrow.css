@@ -401,8 +401,6 @@ sidebar img {
 
 .sidetabblock { margin-bottom:50px; }
 
-/*  about tab  */
-
 .tabone { min-height:210px; margin:5px 0 50px; }
 
 .tabone img {
@@ -418,8 +416,6 @@ sidebar img {
 
 .projects p { padding:2.5px 0; }
 .projects p:first-of-type { padding-bottom:0; }
-
-/*  navigation tab  */
 
 ul.accordion {
     list-style:none;
@@ -451,6 +447,8 @@ ul.navtags { list-style:none; display:none; margin:0; }
 ul.navtags a { color:var(--text); }
 ul.navtags a:hover { color:var(--link); }
 ul.navtags li { margin-bottom:5px; }
+
+tabimage img { display:block; max-width:500px; max-height:550px; }
 
 /*  search  */
 
