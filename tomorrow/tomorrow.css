@@ -449,7 +449,7 @@ ul.navtags a { color:var(--text); }
 ul.navtags a:hover { color:var(--link); }
 ul.navtags li { margin-bottom:5px; }
 
-tabimage img { display:block; max-width:500px; max-height:550px; }
+tabimage img { display:block; max-width:500px; max-height:550px!important; }
 
 /*  search  */
 
