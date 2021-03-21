@@ -3,40 +3,40 @@
 /*  tooltips  */
 
 #s-m-t-tooltip {
-    padding:6px;
-    margin:5px 15px;
-    background-color:var(--accent);
-    font:.65em var(--bodyfont);
-    letter-spacing:1.5px;
-    font-weight:600;
-    color:var(--tooltiptext);
-    z-index:99999999;
+	padding:6px;
+	margin:5px 15px;
+	background-color:var(--accent);
+	font:.65em var(--bodyfont);
+	letter-spacing:1.5px;
+	font-weight:600;
+	color:var(--tooltiptext);
+	z-index:99999999;
 }
 
 /*  scrollbar  */
 
 ::-webkit-scrollbar {
-    height:11px;
-    width:11px;
-    background-color:transparent;
+	height:11px;
+	width:11px;
+	background-color:transparent;
 }
 
 ::-webkit-scrollbar-thumb {
-    background:transparent;
-    border:4px solid transparent;
-    background-clip:padding-box;
+	background:transparent;
+	border:4px solid transparent;
+	background-clip:padding-box;
 }
 
 .rightwrap::-webkit-scrollbar {
-    height:11px;
-    width:11px;
-    background-color:transparent;
+	height:11px;
+	width:11px;
+	background-color:transparent;
 }
 
 .rightwrap::-webkit-scrollbar-thumb {
-    background:var(--accent);
-    border:4px solid transparent;
-    background-clip:padding-box;
+	background:var(--accent);
+	border:4px solid transparent;
+	background-clip:padding-box;
 }
 
 html { overflow-y:scroll; overflow-x: hidden; }
@@ -44,22 +44,19 @@ html { overflow-y:scroll; overflow-x: hidden; }
 /*  tumblr controls  */
 
 iframe.tmblr-iframe {
-    position:fixed;
-    display:inline-block;
-    top:2.5%!important;
-    right:30px!important;
-    padding:2px 2.5% 0 0;
-    z-index:99999999999999!important;
-    opacity:0;
-    transition:.4s ease-in-out;
-    transform:scale(0.75,0.75);
-    transform-origin:right top;
+	position:fixed;
+	display:inline-block;
+	top:2.5%!important;
+	right:30px!important;
+	padding:2px 2.5% 0 0;
+	z-index:99999999999999!important;
+	opacity:0;
+	transition:.4s ease-in-out;
+	transform:scale(0.75,0.75);
+	transform-origin:right top;
 }
 
-iframe.tmblr-iframe:hover {
-    opacity:1!important;
-    cursor:pointer;
-}
+iframe.tmblr-iframe:hover { opacity:1!important; cursor:pointer; }
 
 /*  selection  */
 
@@ -70,16 +67,16 @@ iframe.tmblr-iframe:hover {
 /*  lightboxes  */
 
 .lightbox-image, #tumblr_lightbox img {
-    max-width:none;
-    padding:0px!important;
-    border:0!important;
-    opacity:1!important;
-    box-shadow:none!important;
-        -moz-box-shadow:none!important;
-        -webkit-box-shadow:none!important;
-    border-radius:0px!important;
-        -moz-border-radius:0px!important;
-        -webkit-border-radius:0px!important;
+	max-width:none;
+	padding:0px!important;
+	border:0!important;
+	opacity:1!important;
+	box-shadow:none!important;
+		-moz-box-shadow:none!important;
+		-webkit-box-shadow:none!important;
+	border-radius:0px!important;
+		-moz-border-radius:0px!important;
+		-webkit-border-radius:0px!important;
 }
 
 .tmblr-lightbox, #tumblr_lightbox { background:rgba(var(--rgbbackground), .95)!important; }
@@ -90,197 +87,195 @@ iframe.tmblr-iframe:hover {
 a:hover { cursor:pointer; }
 
 body {
-    background:var(--background);
-    color:var(--text);
-    font-family:var(--bodyfont);
-    font-size:var(--bodyfontsize);
-    font-weight:var(--bodyfontweight);
-    word-wrap:break-word;
-    text-align:justify;
-    letter-spacing:.15px;
-    margin:0;
-    width:100vw;
-    overflow-x:hidden;
-    font-smoothing:antialiased;
-        -moz-osx-font-smoothing:grayscale;
-        -webkit-font-smoothing:antialiased;
+	background:var(--background);
+	color:var(--text);
+	font-family:var(--bodyfont);
+	font-size:var(--bodyfontsize);
+	font-weight:var(--bodyfontweight);
+	word-wrap:break-word;
+	text-align:justify;
+	letter-spacing:.15px;
+	margin:0;
+	width:100vw;
+	overflow-x:hidden;
+	font-smoothing:antialiased;
+		-moz-osx-font-smoothing:grayscale;
+		-webkit-font-smoothing:antialiased;
 }
 
-a {
-    cursor:pointer;
-    color:var(--link);
-    text-decoration:none;
-}
+a { cursor:pointer; color:var(--link); text-decoration:none; }
 
 a:hover {
-    color:var(--accent);
-    text-decoration:none;
-    transition:all .3s linear;
-        -webkit-transition:all .3s linear;
-        -o-transition:all .3s linear;
-        -moz-transition:all .3s linear;
-    cursor:pointer;
+	color:var(--accent);
+	text-decoration:none;
+	transition:all .3s linear;
+		-webkit-transition:all .3s linear;
+		-o-transition:all .3s linear;
+		-moz-transition:all .3s linear;
+	cursor:pointer;
 }
 
 blockquote {
-    border-left:1px solid var(--borders);
-    padding-left:10px;
-    margin:.5em 0;
+	border-left:1px solid var(--borders);
+	padding-left:10px;
+	margin:.5em 0;
 }
 
 small {
-    font-size:calc(var(--bodyfontsize) - 2px)!important;
-    vertical-align:baseline!important;
+	font-size:calc(var(--bodyfontsize) - 2px)!important;
+	vertical-align:baseline!important;
 }
 
 big {
-    font-size:calc(var(--bodyfontsize) + 2px)!important;
-    vertical-align:baseline!important;
+	font-size:calc(var(--bodyfontsize) + 2px)!important;
+	vertical-align:baseline!important;
 }
 
 bold, b, strong { font-weight:bold; }
 
 h1, h2, h3, h4 {
-    margin:1em 0;
-    font-size:1em;
-    padding:0;
-    font-weight:bold;
+	margin:1em 0;
+	font-size:1em;
+	padding:0;
+	font-weight:bold;
 }
 
 hr {
-    border:none;
-    margin:.5em auto;
-    width:100%;
-    border-top:1px solid var(--borders);
+	border:none;
+	margin:.5em auto;
+	width:100%;
+	border-top:1px solid var(--borders);
 }
 
 /*  buttons  */
 
 .cc {
-    position:fixed;
-    top:3%;
-    right:20px;
-    background:var(--background);
-    border-radius:25%;
-    padding:2px 6px;
-    font-size:20px;
-    z-index:9999;
+	position:fixed;
+	top:3%;
+	right:20px;
+	background:var(--background);
+	border-radius:25%;
+	padding:2px 6px;
+	font-size:20px;
+	z-index:9999;
 }
 
 .mobilenav {
-    display:none;
-    position:fixed;
-    top:3%;
-    right:20px;
-    background:var(--background);
-    border-radius:25%;
-    padding:2px 6px;
-    font-size:20px;
-    z-index:9999;
+	display:none;
+	position:fixed;
+	top:3%;
+	right:20px;
+	background:var(--background);
+	border-radius:25%;
+	padding:2px 6px;
+	font-size:20px;
+	z-index:9999;
 }
 
 .stclose {
-    display:none;
-    position:fixed;
-    top:3%;
-    right:20px;
-    background:var(--background);
-    border-radius:25%;
-    padding:2px 6px;
-    font-size:20px;
-    z-index:9999;
+	display:none;
+	position:fixed;
+	top:3%;
+	right:20px;
+	background:var(--background);
+	border-radius:25%;
+	padding:2px 6px;
+	font-size:20px;
+	z-index:9999;
 }
 
 .bfontbtn {
-    position:fixed;
-    top:calc(3% + 50px);
-    right:20px;
-    background:var(--background);
-    border-radius:25%;
-    padding:2px 6px;
-    font-size:20px;
-    font-family:var(--bodyfont);
-    z-index:9999;
+	position:fixed;
+	top:calc(3% + 50px);
+	right:20px;
+	background:var(--background);
+	border-radius:25%;
+	padding:2px 6px;
+	font-size:20px;
+	font-family:var(--bodyfont);
+	z-index:9999;
 }
 
 .sfontbtn {
-    position:fixed;
-    top:calc(3% + 50px);
-    right:20px;
-    background:var(--background);
-    border-radius:25%;
-    padding:2px 6px;
-    font-size:20px;
-    font-family:var(--bodyfont);
-    z-index:9999;
+	position:fixed;
+	top:calc(3% + 50px);
+	right:20px;
+	background:var(--background);
+	border-radius:25%;
+	padding:2px 6px;
+	font-size:20px;
+	font-family:var(--bodyfont);
+	z-index:9999;
 }
 
 .nightbtn {
-    position:fixed;
-    top:calc(3% + 100px);
-    right:20px;
-    background:var(--background);
-    border-radius:25%;
-    padding:2px 6px;
-    font-size:20px;
-    z-index:9999;
+	position:fixed;
+	top:calc(3% + 100px);
+	right:20px;
+	background:var(--background);
+	border-radius:25%;
+	padding:2px 6px;
+	font-size:20px;
+	z-index:9999;
 }
 
 .daybtn {
-    position:fixed;
-    top:calc(3% + 100px);
-    right:20px;
-    background:var(--background);
-    border-radius:25%;
-    padding:2px 6px;
-    font-size:20px;
-    z-index:9999;
+	position:fixed;
+	top:calc(3% + 100px);
+	right:20px;
+	background:var(--background);
+	border-radius:25%;
+	padding:2px 6px;
+	font-size:20px;
+	z-index:9999;
 }
 
 .followbtn {
-    display:none;
-    position:fixed;
-    top:calc(3% + 150px);
-    right:20px;
-    background:var(--background);
-    border-radius:25%;
-    padding:2px 6px;
-    font-size:20px;
-    z-index:9999;
+	display:none;
+	position:fixed;
+	top:calc(3% + 150px);
+	right:20px;
+	background:var(--background);
+	border-radius:25%;
+	padding:2px 6px;
+	font-size:20px;
+	z-index:9999;
 }
 
 .top {
-    display:none;
-    position:fixed;
-    bottom:5%;
-    right:20px;
-    background:var(--background);
-    background:var(--background);
-    border-radius:25%;
-    padding:2px 6px 25px;
-    font-size:20px;
-    z-index:9999;
+	display:none;
+	position:fixed;
+	bottom:5%;
+	right:20px;
+	background:var(--background);
+	background:var(--background);
+	border-radius:25%;
+	padding:2px 6px 25px;
+	font-size:20px;
+	z-index:9999;
 }
 
 .credit {
-    position:fixed;
-    bottom:3.4%;
-    right:20px;
-    background:var(--background);
-    border-radius:25%;
-    padding:2px 6px;
-    font-size:20px;
-    z-index:9999;
+	position:fixed;
+	bottom:3.4%;
+	right:20px;
+	background:var(--background);
+	border-radius:25%;
+	padding:2px 6px;
+	font-size:20px;
+	z-index:9999;
 }
 
+/*  icon links  */
+
 #iconlinks {
-    position:fixed;
-    top:3%;
-    background:var(--background);
-    border-radius:25%;
-    padding:2px 6px;
-    font-size:20px;
-    z-index:999999;
+	position:fixed;
+	top:3%;
+	background:var(--background);
+	border-radius:25%;
+	padding:2px 6px;
+	font-size:20px;
+	z-index:999999;
 }
 
 #iconlinks:hover { color:var(--accent); cursor:pointer; }
