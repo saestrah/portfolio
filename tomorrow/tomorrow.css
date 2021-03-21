@@ -397,13 +397,13 @@ sidebar img {
 
 .sidetabblock { margin-bottom:50px; }
 
-.tabone { margin:5px 0 50px; }
+.tabone { min-height:210px; margin:5px 0 50px; }
 
 .tabone img {
     display:inline-block;
     background:transparent;
-    width:200px;
-    height:200px;
+    max-width:200px;
+    max-height:200px;
     float:left;
     margin:0 15px 10px 0;
 }
