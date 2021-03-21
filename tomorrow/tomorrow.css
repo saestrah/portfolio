@@ -358,6 +358,7 @@ sidebar {
 
 sidebar img {
     display:inline-block;
+	float:left;
     background:transparent;
     max-width:500px;
     max-height:500px;
