@@ -498,6 +498,20 @@ section {
     cursor:pointer;
 }
 
+/*  pinned post  */
+
+.pinned span {
+    display:none;
+    position:relative;
+    float:right;
+    background:var(--background);
+    color:var(--link);
+    border-radius:25%;
+    padding:5px;
+    margin:-5px -40px 0 0;
+    font-size:20px;
+}
+
 /*  photosets  */
 
 [photoset-layout] { grid-gap:3px; }
@@ -835,9 +849,9 @@ body.night .notecount, body.night .quote:before, body.night ul.navtags a { color
 
 body.night .maintitle, body.night .title, body.night .sidetabtitle { color:var(--nighttitle)!important; }
 
-body.night header, body.night sidebar, body.night #iconlinks, body.night .cc, body.night .mobilenav, body.night .stclose, body.night .bfontbtn, body.night .sfontbtn, body.night .nightbtn, body.night .daybtn, body.night .followbtn, body.night .top, body.night .credit { background:var(--nightbackground)!important; }
+body.night header, body.night sidebar, body.night #iconlinks, body.night .cc, body.night .mobilenav, body.night .stclose, body.night .bfontbtn, body.night .sfontbtn, body.night .nightbtn, body.night .daybtn, body.night .followbtn, body.night .top, body.night .credit, body.night .pinned span { background:var(--nightbackground)!important; }
 
-body.night a, body.night .asker a, body.night .answerer a:hover, body.night .user:hover, body.night .source, body.night .label, body.night .navtitle { color:var(--nightlink); }
+body.night a, body.night .asker a, body.night .answerer a:hover, body.night .user:hover, body.night .source, body.night .label, body.night .navtitle, body.night .pinned span { color:var(--nightlink); }
 
 body.night .navtags a:hover { color:var(--nightlink)!important; }
 body.night .hold .artist { color:var(--nightlink); }
