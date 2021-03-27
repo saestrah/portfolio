@@ -709,7 +709,7 @@ body.night { background:var(--nightbackground); color:var(--nighttext)!important
 
 body.night .notecount, body.night .quote:before { color:var(--nighttext)!important; }
 
-body.night .maintitle, body.night .title, body.night .countup .timeel { color:var(--nighttitle)!important; }
+body.night .maintitle, body.night .title, body.night .timertitle, body.night .countup .timeel { color:var(--nighttitle)!important; }
 
 body.night header, body.night .cc, body.night .bfontbtn, body.night .sfontbtn, body.night .nightbtn, body.night .daybtn, body.night .followbtn, body.night .top, body.night .credit { background:var(--nightbackground)!important; }
 
