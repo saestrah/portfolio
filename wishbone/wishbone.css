@@ -813,6 +813,7 @@ body.night #ask_form { filter: invert(100%) grayscale(100%)!important; }
 /*  increased font size  */
 
 body.legible { font-size:18px; }
+body.legible .description { font-size:18px; }
 body.legible mobilenav { font-size:16px; }
 body.legible .tags { font-size:16px; }
 body.legible .search-wrapper { font-size:var(--bodyfontsize); }
