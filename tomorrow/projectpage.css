@@ -27,6 +27,8 @@
     background-clip:padding-box;
 }
 
+.rightwrap { scrollbar-width:thin; }
+
 .rightwrap::-webkit-scrollbar {
     height:11px;
     width:11px;
