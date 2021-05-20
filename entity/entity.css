@@ -165,7 +165,7 @@ maintitle {
     width:100%;
     text-align:center;
     padding-top:10px;
-    z-index:999999;
+    z-index:99999999;
 }
 
 .maintitle {
@@ -173,7 +173,7 @@ maintitle {
     font-size:var(--titlefontsize);
     color:var(--title);
     font-weight:var(--titlefontweight);
-    z-index:999999;
+    z-index:99999999;
 }
 
 /*  search  */
