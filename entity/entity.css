@@ -173,7 +173,8 @@ maintitle {
     font-size:var(--titlefontsize);
     color:var(--title);
     font-weight:var(--titlefontweight);
-    z-index:99999999;
+    padding:left:50px;
+	z-index:99999999;
 }
 
 /*  search  */
