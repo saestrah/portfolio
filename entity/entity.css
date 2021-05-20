@@ -157,12 +157,22 @@ header {
   z-index:9999;
 }
 
+maintitle {
+    position:absolute;
+    display:block;
+    top:0;
+    left:0;
+    width:100%;
+    text-align:center;
+    padding-top:10px;
+    z-index:999999;
+}
+
 .maintitle {
     font-family:var(--titlefont);
     font-size:var(--titlefontsize);
     color:var(--title);
     font-weight:var(--titlefontweight);
-    padding-left:50px;
     z-index:999999;
 }
 
