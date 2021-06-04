@@ -142,6 +142,20 @@ h1, h2, h3, h4 {
 	font-weight:bold;
 }
 
+pre {
+    padding:0;
+    margin:0;
+    line-height:inherit!important;
+    background:transparent;
+    font-family:inherit!Important;
+    font-size:inherit!important;
+    white-space:pre-wrap;
+    white-space:-moz-pre-wrap;
+    white-space:-pre-wrap;
+    white-space:-o-pre-wrap;
+    word-wrap:break-word;
+}
+
 hr {
 	border:none;
 	margin:.5em auto;
