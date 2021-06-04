@@ -157,7 +157,7 @@ pre {
 }
 
 ul li { list-style-type:square; }
-ol li { list-style-type:upper-roman; }
+ol li { list-style-type:decimal; }
 
 hr {
 	border:none;
@@ -547,7 +547,7 @@ section {
 .ted { margin-top:10px; }
 
 .tex ul li { list-style-type:square; }
-.tex ol li { list-style-type:upper-roman; }
+.tex ol li { list-style-type:decimal; }
 
 a.read_more, .label { letter-spacing:1.5px; font-weight:bold; }
 
