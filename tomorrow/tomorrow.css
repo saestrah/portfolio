@@ -573,9 +573,6 @@ a.read_more, .label { letter-spacing:1.5px; font-weight:bold; }
 
 .deactivated:hover:after { opacity:1; }
 
-.tex li ul { list-style-type:square; }
-.tex li ol { list-style-type:upper-roman; }
-
 /*  quote  */
 
 .npf_quote {
