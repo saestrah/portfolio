@@ -692,7 +692,7 @@ body.night .maintitle, body.night .title, body.night .tabtitle, body.night .quot
 
 body.night header, body.night mobilenav, body.night ul.linksmenu li .las, body.night .search-wrapper, body.night #buttons, body.night a, body.night .asker a, body.night .answerer a:hover, body.night .user:hover, body.night .hold .artist, body.night .label, body.night #s-m-t-tooltip { color:var(--nightlinks); }
 
-body.night a:hover, body.night .asker a:hover, body.night .answerer a, body.night .query, body.night .user, body.night #buttons:hover, body.night ul.mobilelinksbox li a:hover, body.night .mobilelinks li a:hover, body.night ul.linksmenu .open .las { color:var(--nightaccent); }
+body.night tabpanel:hover, body.night a:hover, body.night .asker a:hover, body.night .answerer a, body.night .query, body.night .user, body.night #buttons:hover, body.night ul.mobilelinksbox li a:hover, body.night .mobilelinks li a:hover, body.night ul.linksmenu .open .las { color:var(--nightaccent); }
 
 body.night #s-m-t-tooltip { background-color:var(--nightaccent); color:var(--nighttooltiptext); }
 
