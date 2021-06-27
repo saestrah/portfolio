@@ -684,7 +684,7 @@ footer span { padding:10px; }
 
 body.night { background:var(--nightbackground); color:var(--nighttext)!important; }
 body.night sidebar, body.night header, body.night ul.mobilelinksbox li { background:var(--nightsidebar); }
-body.night tab { background:var(--nighttab); }
+body.night tab { background:var(--nighttab); color:var(--nighttabtext); }
 body.night .notecount, body.night .deactivated:after { color:var(--nighttext)!important; }
 
 body.night sidebar { color:var(--nightsidebartext); }
