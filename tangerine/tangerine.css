@@ -704,6 +704,11 @@ body.night iframe.tmblr-iframe { white-space:nowrap; -webkit-filter: invert(0%);
 
 body.night tabpanel, body.night #tabbtns, body.night .question, body.night .player, body.night .hold { background:var(--nightbase); }
 
+body.night ::-webkit-input-placeholder { color:var(--nightsidebartext); }
+body.night :-moz-placeholder { color:var(--nightsidebartext); }
+body.night ::-moz-placeholder { color:var(--nightsidebartext); }
+body.night :-ms-input-placeholder { color:var(--nightsidebartext); }
+
 body.night ::-wewbkit-selection { background:var(--nightbase)!important; }
 body.night ::-moz-selection { background:var(--nightbase)!important; }
 body.night ::selection { background:var(--nightbase)!important; }
