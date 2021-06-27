@@ -702,7 +702,8 @@ body.night blockquote, body.night .quote { border-left:1px solid var(--nightbord
 
 body.night iframe.tmblr-iframe { white-space:nowrap; -webkit-filter: invert(0%); -moz-filter:invert(0%); -o-filter:invert(0%); -ms-filter:invert(0%); filter:invert(0%); }
 
-body.night tabpanel, body.night #tabbtns, body.night .question, body.night .player, body.night .hold { background:var(--nightbase); }
+body.night tabpanel, body.night .question, body.night .player, body.night .hold { background:var(--nightbase); }
+body.night #tabbtns { background:var(--nightbuttons); }
 body.night #tabbtns:hover { background:var(--nightaccent); }
 body.night #tabbtns, body.night #tabbtns:hover { color:var(--nighttitle); }
 
