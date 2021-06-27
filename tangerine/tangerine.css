@@ -3,7 +3,7 @@
 /*  tooltips  */
 
 #s-m-t-tooltip {
-    color:var(--title);
+    color:var(--tooltiptext);
     background-color:var(--accent);
     font-size:calc(var(--bodyfontsize) - 4px);
     font-family:var(--bodyfont);
