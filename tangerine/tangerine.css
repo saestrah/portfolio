@@ -687,7 +687,10 @@ body.night sidebar, body.night header, body.night ul.mobilelinksbox li { backgro
 body.night tab { background:var(--nighttab); }
 body.night .notecount, body.night .deactivated:after { color:var(--nighttext)!important; }
 
-body.night header, body.night mobilenav, body.night ul.linksmenu li .las, body.night sidebar, body.night .search-wrapper, body.night #tabbtns, body.night #buttons, body.night a, body.night .title, body.night .asker a, body.night .answerer a:hover, body.night .user:hover, body.night .hold .artist, body.night .label, body.night .quote:before, body.night .source, body.night #s-m-t-tooltip { color:var(--nightlinks); }
+body.night sidebar { color:var(--nightsidebartext); }
+body.night .title, body.night .quote:before, body.night .source { color:var(--nighttitle); }
+
+body.night header, body.night mobilenav, body.night ul.linksmenu li .las, body.night .search-wrapper, body.night #tabbtns, body.night #buttons, body.night a, body.night .asker a, body.night .answerer a:hover, body.night .user:hover, body.night .hold .artist, body.night .label, body.night #s-m-t-tooltip { color:var(--nightlinks); }
 
 body.night a:hover, body.night .asker a:hover, body.night .answerer a, body.night .query, body.night .user, body.night #buttons:hover, body.night ul.mobilelinksbox li a:hover, body.night .mobilelinks li a:hover, body.night ul.linksmenu .open .las { color:var(--nightaccent); }
 
