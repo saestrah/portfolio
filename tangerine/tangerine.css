@@ -688,7 +688,7 @@ body.night tab { background:var(--nighttab); color:var(--nighttabtext); }
 body.night .notecount, body.night .deactivated:after { color:var(--nighttext)!important; }
 
 body.night sidebar { color:var(--nightsidebartext); }
-body.night .maintitle, body.night .title, body.night .tabtitle, body.night .updatetitle, body.night .quote:before, body.night .source { color:var(--nighttitle); }
+body.night .maintitle, body.night .tabtitle, body.night .updatetitle, body.night .quote:before, body.night .source { color:var(--nighttitle); }
 
 body.night header, body.night mobilenav, body.night ul.linksmenu li .las, body.night .search-wrapper, body.night #buttons, body.night a, body.night .asker a, body.night .answerer a:hover, body.night .user:hover, body.night .hold .artist, body.night .label, body.night #s-m-t-tooltip { color:var(--nightlinks); }
 
