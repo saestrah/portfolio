@@ -688,7 +688,7 @@ body.night tab { background:var(--nighttab); color:var(--nighttabtext); }
 body.night .notecount, body.night .deactivated:after { color:var(--nighttext)!important; }
 
 body.night sidebar { color:var(--nightsidebartext); }
-body.night .maintitle, body.night .tabtitle, body.night .updatetitle, body.night .quote:before, body.night .source { color:var(--nighttitle); }
+body.night .maintitle, body.night .tabtitle, body.night .updatetitle { color:var(--nighttitle); }
 
 body.night header, body.night mobilenav, body.night ul.linksmenu li .las, body.night .search-wrapper, body.night #buttons, body.night a, body.night .asker a, body.night .answerer a:hover, body.night .user:hover, body.night .hold .artist, body.night .label, body.night #s-m-t-tooltip { color:var(--nightlinks); }
 
@@ -708,7 +708,7 @@ body.night tabpanel, body.night #tabbtns { background:var(--nightbuttons); }
 body.night #tabbtns:hover { background:var(--nightaccent); }
 body.night #tabbtns, body.night #tabbtns:hover { color:var(--nighttitle); }
 
-body.night .title, body.night .title a { color:var(--nightsubtitle); }
+body.night .title, body.night .title a, body.night .quote:before, body.night .source, body.night .label, body.night .hold.artist { color:var(--nightsubtitle); }
 
 body.night ::-webkit-input-placeholder { color:var(--nightsidebartext); }
 body.night :-moz-placeholder { color:var(--nightsidebartext); }
