@@ -714,9 +714,9 @@ body.night :-ms-input-placeholder { color:var(--nighttext); }
 
 body.night iframe.tmblr-iframe { white-space:nowrap; -webkit-filter: invert(0%); -moz-filter:invert(0%); -o-filter:invert(0%); -ms-filter:invert(0%); filter:invert(0%); }
 
-body.night ::-wewbkit-selection { background:var(--nightsidebar)!important; }
-body.night ::-moz-selection { background:var(--nightsidebar)!important; }
-body.night ::selection { background:var(--nightsidebar)!important; }
+body.night ::-wewbkit-selection { background:var(--nightborders)!important; }
+body.night ::-moz-selection { background:var(--nightborders)!important; }
+body.night ::selection { background:var(--nightborders)!important; }
 
 body.night .tmblr-lightbox, body.night #tumblr_lightbox { background-color:rgba(41, 47, 54, .95) !important; }
 body.night #ask_form { filter: invert(100%) grayscale(100%)!important; }
